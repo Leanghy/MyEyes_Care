@@ -4,3 +4,10 @@ node_modules
 .nvm
 /bots/node_modules/
 package-lock.json
+
+# Android
+.idea
+.gradle
+local.properties
+*.iml
+/android/
