@@ -1,47 +1,6 @@
-Last login: Tue Aug 13 19:20:07 on ttys001
-Run bash_profile
-MACPRO:~ leanghy$ cd Documents/
-MACPRO:Documents leanghy$ git clone https://github.com/Leanghy/up_project.git -b Develop
-Cloning into 'up_project'...
-remote: Enumerating objects: 2295, done.
-remote: Counting objects: 100% (2295/2295), done.
-remote: Compressing objects: 100% (986/986), done.
-remote: Total 2295 (delta 1023), reused 2292 (delta 1021), pack-reused 0
-Receiving objects: 100% (2295/2295), 56.77 MiB | 264.00 KiB/s, done.
-Resolving deltas: 100% (1023/1023), done.
-MACPRO:Documents leanghy$ git clone https://github.com/Leanghy/MyEyes_Care.git
-Cloning into 'MyEyes_Care'...
-warning: You appear to have cloned an empty repository.
-MACPRO:Documents leanghy$ touch .gitignore
-MACPRO:Documents leanghy$ cat .gitignore
-MACPRO:Documents leanghy$ nano .gitignore
-
-
-
-
-
-
-  GNU nano 2.0.6              File: .gitignore                        Modified  
-
 # Node
 node_modules
 *.log
 .nvm
 /bots/node_modules/
-package-lock.json  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
-^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
+package-lock.json
